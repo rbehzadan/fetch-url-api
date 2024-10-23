@@ -16,7 +16,7 @@ COPY . .
 
 RUN npm install
 
-RUN npx playwright install
+RUN npx playwright install firefox
 
 EXPOSE 8080
 
