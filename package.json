@@ -1,6 +1,17 @@
 {
+  "name": "fetch-url-api",
+  "version": "1.1.2",
+  "description": "This project is a REST API service built with Node.js and Express, leveraging Playwright to fetch the final rendered content of a given URL. The service returns the HTML content of the URL, optionally using a proxy server.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2",
-    "playwright": "^1.44.1"
+    "express": "^4.21.1",
+    "playwright": "^1.48.1"
   }
 }
